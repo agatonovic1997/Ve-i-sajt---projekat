@@ -1,0 +1,95 @@
+
+// ------------------------COFFEE-COLORS--------------------------
+.color-coffee {
+    background-color: $very-dark-charcoal;
+}
+
+.center-img {
+    width: 763px;
+    height: 689px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.circle-coffee::before {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 850px;
+    background-color: $muted-terracotta-with-slight-transparency;
+    border-radius: 50%;
+    z-index: 0;
+    filter: blur(51.6px);
+}
+
+.names_of_coffee h3 {
+    font-family: 'Poppins', sans-serif;
+    color: $white-color;
+    position: absolute;
+}
+
+.names_of_coffee {
+    position: relative;
+}
+
+.coffee-1 {
+    position: relative;
+    top: 50px;
+    transform: rotate(-115deg);
+    left: -120px;
+}
+
+.coffee-2 {
+    position: relative;
+    top: -140px;
+    transform: rotate(-50deg);
+    left: -75px;
+}
+
+.coffee-3 {
+    position: relative;
+    top: -130px;
+    transform: rotate(55deg);
+    left: 310px;
+}
+
+.coffee-4 {
+    position: relative;
+    top: 90px;
+    transform: rotate(125deg);
+    left: 315px;
+}
+
+
+.circle-coffee {
+    width: 830px;
+    height: 830px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid $white-color;
+
+}
+
+.social-network {
+    position: absolute;
+    left: -2.5%;
+}
+
+.social-network>h2 {
+    color: $white-color;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.rotate-90 {
+    transform: rotate(-90deg);
+}
+
+// ------------------------END-COFFEE-COLORS--------------------------

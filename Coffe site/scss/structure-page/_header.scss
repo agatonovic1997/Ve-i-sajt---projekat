@@ -1,0 +1,122 @@
+ 
+//  --------------------HEADER---------------------
+ 
+ body {
+     overflow-x: hidden;
+     background-color: $deep-black !important;
+ }
+
+ .color-header {
+     background-color: $very-dark-charcoal;
+ }
+
+ .line-bottom {
+     border-bottom: 1px solid $white-color;
+ }
+
+
+ ul {
+     list-style: none;
+     text-transform: uppercase;
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 20px;
+
+     li {
+         font-style: normal;
+         font-weight: 400;
+         line-height: normal;
+         color: $white-color;
+     }
+
+ }
+
+ #transparent {
+     background-color: transparent !important;
+ }
+
+ .nav-item a {
+     color: $white-color !important
+ }
+
+ .nav-item .active {
+     color: $medium-tan !important;
+ }
+
+ .navbar-toggler {
+     background-color: $medium-tan !important;
+ }
+
+ .list {
+     color: $medium-tan !important;
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 20px;
+ }
+
+ ul.list li:first-child {
+     color: $medium-tan !important;
+ }
+
+ .lang {
+     color: $white-color;
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 20px;
+ }
+
+
+ .main-text {
+     text-align: center;
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 100px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     margin-top: 162px;
+     color: $white-color;
+     position: relative;
+ }
+
+ .main-text::before {
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100%;
+     height: 230px;
+     background-color: $muted-terracotta-with-slight-transparency;
+     border-radius: 50%;
+     z-index: 0;
+     filter: blur(51.6px);
+ }
+
+ .main-subtitle {
+     font-family: 'Poppins', sans-serif;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     color: $white-color
+ }
+
+ .logo-img {
+     width: 140px;
+     height: 140px;
+     flex-shrink: 0;
+     margin-top: 65px;
+ }
+
+ .logo-img-hamburger {
+     margin-top: 0px;
+     width: 70px;
+     height: 70px;
+     flex-shrink: 0;
+ }
+
+ .wrapper-icon-mobile {
+     border-top: 1px solid $white-color;
+     display: none;
+     justify-content: center;
+ }
+
+
+//--------------------END-HEADER---------------------

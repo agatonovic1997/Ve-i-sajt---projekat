@@ -1,0 +1,104 @@
+
+// ------------------------POPULAR-COFFEE--------------------------
+.background-menu-coffee {
+    background-color: $deep-black;
+    padding-bottom: 100px;
+}
+
+.background-menu-coffee .parents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-coffee {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.popular-coffee-row {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin-top: 40px !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $medium-gray-color;
+}
+
+
+.background-menu-coffee h1 {
+    padding: 30px 0;
+}
+
+.main-menu-coffee {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    color: $white-color;
+    position: relative;
+}
+
+.main-menu-coffee::before,
+.main-menu-coffee::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: $white-color;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-menu-coffee::before {
+    left: 15%;
+}
+
+.main-menu-coffee::after {
+    right: 15%;
+}
+
+.img-menu-size {
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+}
+
+.name-coffee {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    color: $medium-tan;
+
+}
+
+.description-menu-coffe {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: $grayish-taupe;
+
+}
+
+.price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: $white-color;
+}
+
+.line {
+    border: 1px solid $medium-gray-color;
+}
+
+// ------------------------END-POPULAR-COFFEE--------------------------

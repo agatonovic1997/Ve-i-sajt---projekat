@@ -1,0 +1,57 @@
+// ------------------------EXCLUSIVE--------------------------
+
+.background-exclusive-coffee {
+    background-color: $very-dark-charcoal;
+}
+
+.background-exclusive-coffee h1 {
+    padding-top: 75px;
+}
+
+
+.exclusive-coffee {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    color: $white-color;
+    position: relative;
+}
+
+.exclusive-coffee::before,
+.exclusive-coffee::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: $white-color;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.exclusive-coffee::before {
+    left: 15%;
+}
+
+.exclusive-coffee::after {
+    right: 15%;
+}
+
+.cup-size {
+    width: 204px;
+    height: 204px;
+}
+
+.description-name-coffee {
+    color: $grayish-taupe;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: capitalize;
+
+}
+// ------------------------END-EXCLUSIVE--------------------------

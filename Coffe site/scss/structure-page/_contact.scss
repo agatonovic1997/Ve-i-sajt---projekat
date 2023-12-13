@@ -1,0 +1,146 @@
+
+// ------------------------CONTACT--------------------------
+.background-contact-color {
+    background-color: $very-dark-charcoal;
+}
+
+.contact-heading {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    color: $white-color;
+    position: relative;
+}
+
+.contact-heading::before,
+.contact-heading::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: $white-color;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.contact-heading::before {
+    left: 25%;
+}
+
+.contact-heading::after {
+    right: 25%;
+}
+
+.background-color-medium-tan {
+    background-color: $medium-tan;
+    color: $white-color;
+    border-radius: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.background-color-medium-tan p {
+    color: $white-color;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.background-white-contact {
+    background-color: $white-color;
+    padding: 20px 50px;
+    border-radius: 0px 25px 25px 0px;
+    position: relative;
+    left: -20px;
+    height: 100%;
+}
+
+.size-contact-coffee {
+    width: 859px;
+    height: 1038px;
+    flex-shrink: 0;
+    transform: scaleX(-1);
+}
+
+.left-right {
+    background-color: $deep-black;
+
+    p {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: $white-color;
+    }
+}
+
+.center {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: $white-color;
+}
+
+.small-text {
+    color: $white-color;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase !important;
+}
+
+.instagram-heading {
+    left: 95px;
+    top: 75px;
+    text-decoration: underline;
+    color: $white-color;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    padding: 20px 85px;
+    background-color: $warm-muted-brown-with-slight-transparency;
+    width: 207px;
+    height: 89px;
+
+}
+
+.white-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $white-color;
+}
+
+.brown-circle {
+    width: 95px;
+    height: 25px;
+    background-color: $medium-tan;
+    border-radius: 25px;
+
+}
+// ------------------------END-CONTACT--------------------------

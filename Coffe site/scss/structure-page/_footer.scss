@@ -1,0 +1,59 @@
+// ------------------------FOOTER--------------------------
+.background-footer {
+    background-color: $very-dark-charcoal;
+}
+
+.wrapper-work-day p {
+    color: $medium-tan !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+.order-first p {
+    color: $white-color;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.wrapper-footer-menu p {
+    color: $white-color;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.heading-in-footer {
+    color: $medium-tan;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.coffee-beans {
+    position: relative;
+    top: 30px;
+    z-index: 5;
+
+}
+
+.line-footer {
+    border-top: 1px solid $white-color;
+}
+
+// ------------------------END-FOOTER--------------------------
