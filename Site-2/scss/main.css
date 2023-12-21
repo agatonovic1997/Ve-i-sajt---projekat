@@ -2,7 +2,6 @@
 @font-face {
   font-family: "TT Commons Pro Black";
   src: url("../fonts/Fontspring-DEMO-tt_commons_pro_black.otf") format("woff2"), url("../fonts/Fontspring-DEMO-tt_commons_pro_bold.otf") format("woff");
-  /* Dodajte i ostale formate fonta ako ih imate (eot, ttf, svg) */
 }
 @media (max-width: 992px) {
   .amber,
